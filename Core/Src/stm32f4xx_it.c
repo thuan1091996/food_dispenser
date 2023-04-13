@@ -201,7 +201,7 @@ void SysTick_Handler(void)
 /**
   * @brief This function handles EXTI line0 interrupt.
   */
-void EXTI0_IRQHandler(void)
+__WEAK void EXTI0_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI0_IRQn 0 */
 
